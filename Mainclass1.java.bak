@@ -1,0 +1,25 @@
+class Mainclass1
+{
+  public static void main(String[] args)
+  {
+    Sample s1=new Sample();
+    s1.disp();
+    s1.test();
+  }
+}
+interface Demo
+{
+  void disp();
+  void disp();
+}
+class Sample implements Demo
+{
+ public void disp()
+ {
+  System.out.println("hello");
+  }
+  public void tester()
+  {
+  System.out.println("cool");
+  }
+}

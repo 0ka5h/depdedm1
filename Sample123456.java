@@ -1,0 +1,17 @@
+class Sample123456
+{
+  static void Swap(int no,int sum)
+  {
+    while(no!=0)
+    {
+      int rem=no%10;
+      sum=sum+rem;
+      no=no/10;
+    }
+     System.out.println(sum);
+  }
+  public static void main(String[]args)
+  {
+     Swap(1234,0);
+  }
+}

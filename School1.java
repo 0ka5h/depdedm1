@@ -1,0 +1,20 @@
+class School1
+{
+String Schoolname;
+char Schoolgrade;
+int Schoolstrength;
+School1 (String a,char b,int c)
+{
+Schoolname=a;
+Schoolgrade=b;
+Schoolstrength=c;
+return;
+}
+public static void main(String[]args)
+{
+School1 S1=new School1("john",'A',100);
+System.out.println(S1.Schoolname);
+System.out.println(S1.Schoolgrade);
+System.out.println(S1.Schoolstrength);
+}
+}

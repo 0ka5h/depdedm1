@@ -1,0 +1,22 @@
+import java.util.Scanner;
+class Main3
+{
+  public static void main(String[]args)
+  {
+    Scanner SC=new Scanner(System.in);
+    System.out.println("enter the number");
+    int no=SC.nextInt();
+    int x=numberreverse(no);
+    System.out.println(x);
+  }  
+      static int numberreverse(int no)
+    {
+    if(copy==reverse)
+    {
+      System.out.println("palindrome");
+    }else{
+           System.out.println("not a palindrome");
+         }
+	 return(reverse);
+   }
+}

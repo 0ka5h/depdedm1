@@ -1,0 +1,20 @@
+class Mobile1
+{
+int mobilecost;
+String Modlename;
+String Mobilecolour;
+Mobile1 (int a,String b,String c)
+{
+Mobilecost=a;
+Modlename=b;
+Mobilecolour=c;
+return;
+}
+public static void main(String[]args)
+{
+Mobile1 M1=new Mobile1(100000,"iphone","white");
+System.out.println(M1.Mobilecost);
+System.out.println(M1.Modlename);
+System.out.println(M1.Mobilecolour);
+}
+}

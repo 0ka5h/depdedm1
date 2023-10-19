@@ -1,0 +1,15 @@
+class Triangle1
+{
+	static void area(int b,int h,double a)
+	{
+	double a=0.5;
+	int b=5;
+	int h=8;
+	double res=a*b*h;
+	System.out.println(res);
+	}
+	public static void main(String[]args)
+	{
+	  area(5,8,0.5);
+	}
+}

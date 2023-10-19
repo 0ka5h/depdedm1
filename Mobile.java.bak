@@ -1,0 +1,12 @@
+class Mobile
+{
+	static int mobilecost=20000;
+	static String modelname=redmi;
+	static String mobilecolour=red;
+		public static void main(String[]args)
+		{
+			System.out.println("mobile cost is"+mobilecost);
+			System.out.println("model name  is"+modelname);
+			System.out.println("mobile colour is"+mobilecolour);
+		}
+}
